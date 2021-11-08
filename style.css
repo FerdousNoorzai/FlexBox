@@ -1,0 +1,172 @@
+body {
+    background-color: #111;
+}
+
+h1 {
+    text-align: left;
+    font-family: "Malache Crunch";
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #1b4332;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+hr {
+    border: none;
+    border-top: 3px double rgb(255, 247, 247);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 0.6em;
+    color: #ccd5ae;
+}
+
+.bodyContainer {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.data {
+    width: 24%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.holder {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.coder {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.item,
+.item1,
+.item-row,
+.item-wrap {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    padding: 3px;
+    float: left;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.item-row {
+    flex-direction: row;
+}
+
+.rowing {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(33, 255, 214, 0.79);
+}
+
+.item-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+}
+
+.wraping {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 18%;
+    height: 50%;
+    float: top;
+    background-color: rgba(33, 255, 214, 0.79);
+}
+
+.wraping1 {
+    display: flex;
+    float: bottom;
+    flex-direction: row;
+    width: 18%;
+    height: 45%;
+    background-color: rgba(33, 255, 214, 0.3);
+    ;
+}
+
+.item_child {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(33, 255, 214, 0.79);
+}
+
+.textContent {
+    display: flex;
+    float: right;
+    margin-left: 0.5em;
+    font-size: 0.7em;
+    align-items: center;
+}
+
+.item1 .item_child {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: #e63946;
+}
+
+.coder:hover {
+    background-color: #6c757d;
+    cursor: pointer;
+}

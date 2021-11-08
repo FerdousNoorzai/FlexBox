@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="header">
+            <h1><span style="color: red;">F</span>lex <span style="color: red;">B</span>ox</h1>
+            <hr>
+            <h2>Container</h2>
+            <hr>
+        </section>
+
+        <section class="bodyContainer">
+            <div class="data">
+                <h3>display</h3>
+                <h4>Enables flex for all children.</h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> display : flex</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> display : inline-flex</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>flex-direction</h3>
+                <h4>Establishes the main axis.</h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item-row">
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                        </div>
+                        <span class="textContent"> flex-direction: column</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item-row">
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+
+                        </div>
+                        <span class="textContent">  flex-direction: column-reverse</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent">  flex-direction: row</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent">  flex-direction: row-reverse</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>flex-wrap</h3>
+                <h4>Wraps items if they can't all be made to fit on one line.</h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item-wrap">
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                        </div>
+                        <span class="textContent"> flex-wrap: wrap</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item-row">
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                            <span class="rowing"></span>
+                        </div>
+                        <span class="textContent"> flex-wrap: nowrap</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item-wrap">
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping1"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                            <span class="wraping"></span>
+                        </div>
+                        <span class="textContent"> flex-wrap: wrap-reverse</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>justify-content</h3>
+                <h4>Attempts to distribute extra space on the main axis.</h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: flex-start</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: flex-end</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: center</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: space-between</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: space-evenly</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> justify-content: space-around</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>align-items</h3>
+                <h4>Determines how items are laid out on the cross axis.</h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-items: flex-start</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-items: flex-end</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-items: center</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-items: stretch</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-items: baseline</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>align-content</h3>
+                <h4>Only has an effect with more than one line of content. Examples shown here use flex-wrap.
+
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: flex-start</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: flex-end</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: center</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: space-between</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: space-around</span>
+                    </div>
+                    <br>
+                    <div class="coder">
+                        <div class="item">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> align-content: stretch</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <hr>
+        <h2>Children</h2>
+        <hr>
+        <section class="bodyContainer">
+            <div class="data">
+                <h3>order</h3>
+                <h4>Allows you to explictly set the order you want each child to appear in.
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> order: integer</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>flex-grow</h3>
+                <h4>Allows you to determine how each child is allowed to grow as a part of a whole.
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> flex-grow: 1 (applied to All)</span>
+                    </div>
+                </aside>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> flex-grow: 1, 2 or 3</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>flex-basis</h3>
+                <h4>Defines the size of an element before remaining space is distributed.
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> first item 20%, second item 40%</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>flex-shrink</h3>
+                <h4>Allows an item to shrink if necessary. Only really useful with a set size or flex-basis.
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent"> both want to be 100% wide, 2nd item has flex-shrink: 2</span>
+                    </div>
+                </aside>
+            </div>
+            <div class="data">
+                <h3>align-self</h3>
+                <h4>Sets alignment for individual item. See "align-items" for options
+                </h4>
+                <aside class="holder">
+                    <div class="coder">
+                        <div class="item1">
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                            <span class="item_child"></span>
+                        </div>
+                        <span class="textContent">3rd item has align-self:flex-end</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <hr>
+        <h3>Created By Mr. Ferdous Noorzai</h3>
+        <h3>Date: Nov 08 2021</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
