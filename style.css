@@ -1,10 +1,11 @@
 body {
     background-color: #111;
+    font-family: "Gill Sans Nova Book","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 {
     text-align: left;
-    font-family: "Malache Crunch";
+    font-family: Helvetica,Arial,sans-serif;
     font-size: 50px;
     letter-spacing: 10px;
     color: #1b4332;
@@ -192,9 +193,21 @@ h4 {
 }
 
 
-#center
-{
-    display: flex;
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: inline-flex;
+    /* justify-content: center; */
+    color: #fff;
+}
+
+#left{
+    justify-content: left;
+}
+#right{
     justify-content: center;
-    font-weight: bold;
 }
