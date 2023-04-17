@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Flexbox</title>
+    <title>Flexbox Cheatsheet</title>
 </head>
 
 <body>
@@ -426,10 +426,13 @@
         </section>
 
         <hr>
-        <h3>Created By Mr. Ferdous Noorzai</h3>
-        <h3>Date: Nov 08 2021</h3>
+        <h2>@<span id="date"></span> All Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b>Developed with ❤ by Ferdous Noorzai</b></h2>
     </div>
-    <script src="script.js"></script>
+    <script>
+        let date = document.getElementById('date');
+        let newDate = new Date().getFullYear();
+        date.innerHTML = newDate;
+    </script>
 </body>
 
 </html>

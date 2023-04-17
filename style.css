@@ -190,3 +190,11 @@ h4 {
     background-color: #6c757d;
     cursor: pointer;
 }
+
+
+#center
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
